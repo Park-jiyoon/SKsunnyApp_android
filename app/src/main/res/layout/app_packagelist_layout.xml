@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:ignore="RtlCompat"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_alignParentTop ="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="@drawable/bg_switchbar"
+        android:paddingStart="@dimen/switchbar_pad"
+        android:elevation="1dp"
+        android:paddingEnd="@dimen/switchbar_pad"
+        android:layout_gravity="top"
+        tools:ignore="NewApi">
+
+
+
+
+
+
+        <Switch
+            android:id="@+id/default_allow"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/disallow_radio_on"
+            android:textOff="@string/disallow_radio_off"
+            />
+
+        <TextView
+            android:id="@+id/default_allow_text"
+            style="@android:style/TextAppearance.Medium.Inverse"
+            tools:text="@string/disallow_radio"
+            android:text="@string/disallow_radio"
+            android:layout_toStartOf="@id/default_allow"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ListView
+        android:id="@+id/auth_info_listview"
+        android:layout_width="wrap_content"
+        android:fastScrollEnabled="true"
+        android:fastScrollAlwaysVisible="true"
+        android:scrollbarStyle="outsideInset"
+        android:layout_height="match_parent"
+        android:scrollbarSize="2dp"
+        />
+
+    <!--
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/auth_info_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    </LinearLayout>
+
+-->
+</LinearLayout>
