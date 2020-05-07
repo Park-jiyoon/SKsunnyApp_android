@@ -1,6 +1,6 @@
 # SKsunnyApp
 
-*You can download it from the Google Play Store.*
+*You can download it from the Google Play Store.*  **[Google Play Download Link](https://play.google.com/store/apps/details?id=com.sunny.sunnyapplication)**
 
 _**"SK SUNNY Social Innovative Project - SLOWERTHANNOW"**_
 
