@@ -1,4 +1,4 @@
-# SKsunnyApp
+# SK sunny App for Android
 
 *You can download it from the Google Play Store.*  **[Google Play Download Link](https://play.google.com/store/apps/details?id=com.sunny.sunnyapplication)**
 
